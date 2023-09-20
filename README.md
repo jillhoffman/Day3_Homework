@@ -19,13 +19,13 @@ The input_files.zip include a file with all known FA genes and STRING file conta
 ### How to Run
 Clone this repo in desired directory:
 
-  <git clone https://github.com/jillhoffman/Day3_Homework.git>
+    git clone https://github.com/jillhoffman/Day3_Homework.git
   
 Unzip Input Files In Terminal: (Can also do manually outside of terminal)
 
-  <sudo-apt get unzip>
-  <unzip ./Input>
+    sudo-apt get unzip
+    unzip ./Input
   
 Run code in terminal:
 
-  <python3 ./Day3_Visualization>
+    python3 ./Day3_Visualization
