@@ -12,7 +12,9 @@ No additional packages or specific environment is needed.
 The inputs include a file including all known FA genes and STRING file containing all disease genes and their connections.
 
 **STRING1.txt** = all disease genes
+
 **input.gmt.txt** = list of FA genes
+
 **Day3_Visualization.py** = main script to run code
 
 ### How to Run
