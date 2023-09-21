@@ -1,4 +1,4 @@
-# Day3_Homework
+# Fanconi Anemia Gene Connections
 
 ### Description
 This code is designed to take a gmt format file of disease genes and find all possible subnetworks between the genes, creating a new file to be used as an input to create a visualization network.
@@ -29,3 +29,5 @@ Unzip Input Files In Terminal: (Can also do manually outside of terminal)
 Run code in terminal:
 
     python3 ./Day3_Visualization
+
+#### Time to Run = 10-15 minutes
