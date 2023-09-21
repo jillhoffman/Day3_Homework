@@ -16,6 +16,9 @@ The input_files.zip include a file with all known FA genes and STRING file conta
 **input.gmt.txt** = list of FA genes  
 **Day3_Visualization.py** = main script to run code  
 
+### Example Outputs
+The expected output file and example of the visualization can be found under the example_outputs folder
+
 ### How to Run
 Clone this repo in desired directory:
 
@@ -31,3 +34,5 @@ Run code in terminal:
     python3 ./Day3_Visualization
 
 #### Time to Run = 10-15 minutes
+#### Link to Report:
+https://docs.google.com/document/d/1e8ZQCesrbiJ1mgCTEJDuNWUF45mB7toNUg1ro98OwjA/edit?usp=sharing 
