@@ -4,7 +4,7 @@
 This code is designed to take a gmt format file of disease genes and find all possible subnetworks between the genes, creating a new file to be used as an input to create a visualization network.
 
 ### Requirements
-Python 3.10
+Python 3.10    
 Git Bash or Linux (optional)
 
 No additional packages or specific environment is needed.
