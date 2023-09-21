@@ -27,7 +27,7 @@ Clone this repo in desired directory:
 Unzip Input Files In Terminal: (Can also do manually outside of terminal)
 
     sudo-apt get unzip
-    unzip ./Input
+    unzip ./input_files
   
 Run code in terminal:
 
