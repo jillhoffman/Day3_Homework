@@ -32,7 +32,7 @@ Unzip Input Files In Terminal: (Can also do manually outside of terminal)
   
 Run code in terminal:
 
-    python3 ./Day3_Visualization
+    python3 ./Day3_Visualization.py
 
 ### Data Analysis
 The created output file can be used as in input in [cytospace](https://cytoscape.org/) to visualize
