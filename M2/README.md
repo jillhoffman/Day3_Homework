@@ -28,7 +28,7 @@ Unzip Input Files In Terminal: (Can also do manually outside of terminal)
   
 ### Run main code: p-value_calc.py
 
-**Input Files:** Dictionaries of average edge weights for both null and FA subnetwork sets.
+**Input Files:** Dictionaries of average edge weights for both null and FA subnetwork sets.    
 **Input File Locations:** /densities/null_subnetwork_densities.json, /densities/FA_subnetwork_densities.json
 
 All input files are provided. To run copy and paste:
@@ -41,8 +41,8 @@ All input files are provided. To run copy and paste:
 
 #### connection_bins.py
 
-**Input Files:** gmt input file of all FA genes sorted by loci, string file of every known gene connetion.
-**Input File Locations:** input_data/input.gmt.txt, input_data/STRING1.txt
+**Input Files:** gmt input file of all FA genes sorted by loci, string file of every known gene connetion.    
+**Input File Locations:** input_data/input.gmt.txt, input_data/STRING1.txt    
 **Output Files:** This script generates a json dictionary of genes sorted into connection bins based on total number of occurances in STRING file. The dictionary is in dictionaries/connection_bins.json and is used in the null_subnetworks.py script.
 
 All input files are provided. To run copy and paste:
@@ -53,7 +53,7 @@ All input files are provided. To run copy and paste:
 
 #### FA_subnetworks.py
 
-**Input Files:** gmt input file of all FA genes sorted by loci, located at input_data/input.gmt.txt
+**Input Files:** gmt input file of all FA genes sorted by loci, located at input_data/input.gmt.txt    
 **Output Files:** This script generates a json dictionary of 5,000 unique FA subnetworks of 12 genes each, 1 gene from each loci. The dictionary is in dictionaries/FA_subnetworks.json and is used in null_subnetworks.py and densities.py. The number of subnetworks generated can be editied by changing line 7 in the script.
 
 All input files are provided. To run copy and paste:
@@ -64,7 +64,7 @@ All input files are provided. To run copy and paste:
 
 #### null_subnetworks.py
 
-**Input Files:** FA_subnetworks.json dictionary, connection_bins.json dictionary
+**Input Files:** FA_subnetworks.json dictionary, connection_bins.json dictionary    
 **Output Files:** This script generates a json dictionary of 5,000 unique random gene subnetworks of 12 genes each. Genes from the FA_subnetworks are replaced by random genes in the same connection bin. The dictionary is in dictionaries/null_subnetworks.json and is used in densities.py.
 
 All input files are provided. To run copy and paste:
@@ -75,7 +75,7 @@ All input files are provided. To run copy and paste:
 
 #### densities.py
 
-**Input Files:** STRING.txt, FA_subnetworks.json dictionary, null_subnetworks.json dictionary
+**Input Files:** STRING.txt, FA_subnetworks.json dictionary, null_subnetworks.json dictionary    
 **Output Files:** This script generates a json dictionary of average edge weights for each subnetwork in both the FA and null set. The outputs are densities/FA_subnetwork_densities.json and densities/null_subnetwork_densities.json, which are used in p-value.py.
 
 All input files are provided. To run copy and paste:
