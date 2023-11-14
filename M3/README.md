@@ -12,7 +12,7 @@ Python 3.10
 ### Packages Required for Visualization
 matplotlib: https://matplotlib.org/  
 networkx: https://networkx.org/  
-netgraph: https://netgraph.readthedocs.io/
+netgraph: https://netgraph.readthedocs.io/    
 pandas: https://pandas.pydata.org/ 
 
 ### Set Up 
