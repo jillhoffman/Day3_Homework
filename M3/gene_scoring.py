@@ -1,8 +1,8 @@
 import json
 
-associated_gene_file = "../input_files/input.gmt.txt"
-FA_networks = "../input_files/FA_subnetworks.json"
-gene_connections = open("../input_files/M3_Input.txt", 'rb')
+associated_gene_file = "./input_files/input.gmt.txt"
+FA_networks = "./input_files/FA_subnetworks.json"
+gene_connections = open("./input_files/M3_Input.txt", 'rb')
 
 unique_connections_set = set()
 unique_connections_list = []
