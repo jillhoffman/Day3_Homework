@@ -7,7 +7,7 @@ import json
 import pandas as pd
 
 conns_input = open("./input_files/M3_Input.txt", 'r')
-loci_dict = "./input_files/FA_loci.json"
+loci_dict = "./output_file/FA_loci.json"
 gene_scores_file = "./output_file/gene_scores.json"
 
 
