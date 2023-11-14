@@ -8,7 +8,7 @@ import pandas as pd
 
 conns_input = open("./input_files/M3_Input.txt", 'r')
 loci_dict = "./input_files/FA_loci.json"
-gene_scores_file = "./input_files/gene_scores.json"
+gene_scores_file = "./output_file/gene_scores.json"
 
 
 partition_sizes = []
