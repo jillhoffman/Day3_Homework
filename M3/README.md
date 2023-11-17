@@ -22,12 +22,15 @@ Clone this repo in desired directory and go to folder:
     cd Day3_Homework/M3
     
 ### Input/Output Files  
-All input files for gene_scoring.py and scores_vis.py and in the input_files folder. For gene_scoring.py the required files are:  
+
+All input files for gene_scoring.py and some for scores_vis.py are in the input_files folder. For gene_scoring.py the required files are: 
+
 **input.gmt.txt:** All FA genes sorted by loci  
 **FA_subnetworks.json:** 5,000 random subnetworks of FA genes with 1 gene per loci  
 **M3_Input.txt:** All FA gene connections  
 
 For scores_vis.py the additional files created from the gene_scoring.py are required and present in the output_file folder:
+
 **FA_loci.json:** Dictionary of each FA loci and the genes in the loci  
 **gene_scores.json:** Dictionary of each gene and its score  
 
