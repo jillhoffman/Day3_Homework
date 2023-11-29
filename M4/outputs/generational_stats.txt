@@ -1,0 +1,5 @@
+generation 1 had increase of 2.607905262187248%
+generation 2 had increase of 0.7499672552397598%
+generation 3 had increase of 0.6981652283243934%
+generation 4 had increase of 0.5698938702017217%
+FINISHED ON GENERATION 5 WITH INCREASE OF 0.3646466408823736%
