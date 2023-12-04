@@ -21,7 +21,7 @@ for key, network in FA_subnetworks.items():
 
     sorted_pairs = sorted(all_pairs, reverse = True, key = lambda x: x[1])
 
-    file = open("with_scores.gmt", "a")
+    file = open("./outputs/with_scores.gmt", "a")
     if key == "0":
         file.write(f"{first_thing}")
     else:
@@ -40,7 +40,7 @@ for key, network in FA_subnetworks.items():
     file.close()
 
 
-    file1 = open("without_scores.gmt", "a")
+    file1 = open("./outputs/without_scores.gmt", "a")
     if key == "0":
         file1.write(f"{first_thing}")
     else:
