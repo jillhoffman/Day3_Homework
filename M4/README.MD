@@ -13,10 +13,12 @@ netgraph: https://netgraph.readthedocs.io/
 pandas: https://pandas.pydata.org/ 
 
 ### Set Up 
-Clone this repo in desired directory and go to folder:
+Clone this repo in desired directory, go to folder, and unzip necessary files:
 
     git clone https://github.com/jillhoffman/Day3_Homework.git/
     cd Day3_Homework/M4
+
+    gunzip inputs/STRING1.zip
 
 ### Input/Output Files  
 
@@ -26,7 +28,7 @@ All input files for genetic_algo.py and some for top10values.py, p-valueM4.py, s
 **FA_subnetworks.json:** 5,000 random subnetworks of FA genes with 1 gene per loci  
 **M3_Input.txt:** All FA gene connections    
 **FA_loci.json:** Dictionary of each FA loci and its genes    
-**STRING.gmt:** All gene connections    
+**STRING1.txt:** All gene connections    
 **connection_bins.json:** Each gene from STRING sorted in bins by number of connections    
 **optimized_null_network.json:** 5,000 subnetworks of null gene cases, created using ../M2/null_subnetworks.py    
 **optimized_null_densities.json:** Densities of each optimized null subnetwork, created using densities.py in ../M2/densities.py    
