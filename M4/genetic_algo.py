@@ -70,7 +70,7 @@ for x in unique_connections_set:
     unique_connections_list.append(split)
 
 max_rounds = 1000
-stats_file = open("generational_stats.txt", "a")
+stats_file = open("./outputs/generational_stats.txt", "a")
 
 f = open(FA_networks, 'rb')
 FA_subnetworks = json.load(f)
@@ -126,7 +126,7 @@ for i in range(1000):
 
         stats_file.write(f"{output}\n")
 
-        with open('./optimized_network.json', 'w') as js:
+        with open('./outputs/optimized_network.json', 'w') as js:
             json.dump(mated_subnetworks, js, indent=4,
                       separators=(',', ': '))
         break
