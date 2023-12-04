@@ -24,19 +24,19 @@ All input files for genetic_algo.py and some for top10values.py, p-valueM4.py, s
 
 **input.gmt.txt:** All FA genes sorted by loci  
 **FA_subnetworks.json:** 5,000 random subnetworks of FA genes with 1 gene per loci  
-**M3_Input.txt:** All FA gene connections
-**FA_loci.json:** Dictionary of each FA loci and its genes
-**STRING.gmt:** All gene connections
-**connection_bins.json:** Each gene from STRING sorted in bins by number of connections
-**optimized_null_network.json:** 5,000 subnetworks of null gene cases, created using ../M2/null_subnetworks.py
-**optimized_null_densities.json:** Densities of each optimized null subnetwork, created using densities.py in ../M2/densities.py
-**optimized_densities.json:** Densities of optimized network after genetic alogrithm, created using ../M2/densities.py
+**M3_Input.txt:** All FA gene connections    
+**FA_loci.json:** Dictionary of each FA loci and its genes    
+**STRING.gmt:** All gene connections    
+**connection_bins.json:** Each gene from STRING sorted in bins by number of connections    
+**optimized_null_network.json:** 5,000 subnetworks of null gene cases, created using ../M2/null_subnetworks.py    
+**optimized_null_densities.json:** Densities of each optimized null subnetwork, created using densities.py in ../M2/densities.py    
+**optimized_densities.json:** Densities of optimized network after genetic alogrithm, created using ../M2/densities.py    
 
 
 For top10values.py, p-valueM4.py, scores_vis.py and gene_score_files.py the additional files are required and present in the outputs folder:
 
-**optimized_network.json:** Dictionary of optimized subnetworks, created from genetic_algo.py 
-**gene_scores_new.json:** Gene scores based on optimized_network.json, created from ../M3/gene_scoring.py
+**optimized_network.json:** Dictionary of optimized subnetworks, created from genetic_algo.py     
+**gene_scores_new.json:** Gene scores based on optimized_network.json, created from ../M3/gene_scoring.py    
 
 ## Run genetic_algo.py
 ### Create optimized subnetwork and save stats on each generation in outputs/generational_stats.txt
