@@ -57,3 +57,8 @@ For top10values.py, p-valueM4.py, scores_vis.py and gene_score_files.py the addi
 ### Calculate p-value on whole optimized population using t-test.
 
     python p-valueM4.py
+
+## Run scores_vis.py
+### Visualzie new gene scores.
+
+    python scores_vis.py
