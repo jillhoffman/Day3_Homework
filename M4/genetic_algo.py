@@ -40,7 +40,7 @@ def mate(densities, FA_loci, mutated_subnetworks, mated_subnetwork):
     for gene_1, gene_2 in zip(p1_network, p2_network):
         gene_pairs = []
         loci_num_1 = [k for k, v in FA_loci.items() if gene_1 in v]
-        loci_num_2 = [k for k, v in FA_loci.items() if gene_1 in v]
+        loci_num_2 = [k for k, v in FA_loci.items() if gene_2 in v]
 
         if loci_num_2 == loci_num_1:
             gene_pairs.append(gene_1)
